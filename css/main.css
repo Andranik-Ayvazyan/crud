@@ -1,0 +1,66 @@
+.add_prod {
+    position:absolute;
+    right:4vw;
+    top:2vh;
+}
+.add_button {
+    height:6vh;
+}
+ .add label, .edit_prod label  {
+    position: relative;
+}
+.name_warning, .number_warning {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:red;
+    display: none;
+}
+table.product_view  td, table.product_view  th {
+    max-width:12vw;
+    min-width: 11vw;
+    border:2px solid grey;
+}
+td, th {
+    padding:2px;
+    overflow:hidden;
+    word-wrap: break-word;
+    text-align:center;
+}
+label {
+    display: block;
+}
+.modal-body p {
+    display: inline-block;
+    width:9vw;
+}
+.add,.edit_prod {
+    width:40vw;
+    margin:40px auto;
+
+}
+form p {
+    margin-bottom: 0;
+}
+.add input, .add textarea, .adding_product, .edit_prod input, .edit_prod textarea {
+    width:40vw;
+    max-width: 40vw;
+}
+.adding_product, .editing_product {
+    margin-top:15px;
+}
+.prod_del {
+    margin-left:1vw;;
+}
+a {
+    cursor:pointer;
+}
+.alert-success {
+    width:50vw;
+}
+
+.datepicker {
+    cursor: pointer;
+}
+
+
